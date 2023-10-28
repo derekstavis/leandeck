@@ -1,0 +1,10 @@
+{
+    "name": "Lean Deck",
+    "author": "dereks",
+    "manifest_version": 3,
+    "target": "Other",
+    "description": "Make your Deck lean and mean",
+    "inject": {
+        "shared.css": ["bigpicture"]
+    }
+}
