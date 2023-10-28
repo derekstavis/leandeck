@@ -1,10 +1,45 @@
 {
     "name": "Lean Deck",
     "author": "dereks",
-    "manifest_version": 3,
+    "manifest_version": 5,
     "target": "Other",
     "description": "Make your Deck lean and mean",
     "inject": {
         "shared.css": ["bigpicture"]
-    }
+    },
+    "dependencies": {
+      "Better Blur": {
+        "Blur Strength": "3",
+        "Opacity": "0.2"
+      },
+      "Clean Gameview": {
+        "Play Bar Style": "Blur",
+        "Alignment": "Zoom-Center",
+        "Show Steam Cloud": "No",
+        "Lock Logo": "Yes"
+      },
+      "Icon Hider": {
+        "Search": "Yes",
+        "SD": "Yes",
+        "Notifications": "Yes",
+        "Wifi": "Yes",
+        "Power": "Yes",
+        "Clock": "Yes",
+        "Profile": "No",
+        "Steam": "Yes",
+        "A": "Yes",
+        "B": "Yes"
+      },
+      "No Home Tabs": {},
+      "Round": {
+        "Intensity": "3px",
+        "Outlines": "Round"
+      },
+      "Switch Like Home": {
+        "No Friends": "Yes"
+      }
+    },
+    "flags": [
+      "REQUIRE_NAV_PATCH"
+    ]
 }
